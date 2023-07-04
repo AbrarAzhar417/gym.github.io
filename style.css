@@ -1,0 +1,140 @@
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 221, 215, 0.4);
+}
+
+.header {
+    width: 1354;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.right img {
+    width: 140px;
+    margin: 0px 0px 0px 25px;
+    filter: invert();
+}
+
+.right h2 {
+    position: relative;
+    bottom: 50px;
+    margin-left: 20px;
+    display: block;
+    color: white;
+}
+
+.mid ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 130px;
+    
+}
+
+
+.mid ul a {
+    text-decoration: none;
+    background-color: rgb(111, 207, 252);
+    color: black;
+    font-size:large;
+    border: 2px solid black;
+    padding: 10px;
+}
+.mid ul a:hover{
+    background-color: blue;
+    color: rgb(250, 250, 250);
+}
+
+.right a button {
+    position: relative;
+    left: 1100px;
+    bottom: 67px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(111, 207, 252);
+    color: black;
+    font-size:large;
+    border: 2px solid black;
+    padding: 10px;
+    gap: 2rem;
+
+}
+.right a button:hover{
+    background-color: blue;
+    color: rgb(250, 250, 250);
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pic img {
+    width: 500px;
+    padding: 30px;
+
+}
+
+.content {
+    display: block;
+}
+
+.content h1 {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.content img {
+    float: right;
+    width: 500px;
+    margin-top: 100px;
+}
+
+pre {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+}
+
+.signup {
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 2px 5px 7px 5px black;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.signup form input {
+    margin: 12px;
+    padding: 6px
+}
+
+.signup form button {
+    background-color: rgb(49, 255, 186);
+    color: black;
+    padding: 7px;
+}
+.signup form button:hover{
+    background-color: blue;
+    color: rgb(250, 250, 250);
+}
+.signup form #query {
+    height:200px;
+}
